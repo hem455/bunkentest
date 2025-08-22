@@ -1,17 +1,26 @@
 # Product Overview
 
 ## Product Overview
-Bunken is a new project in early development phase. The product purpose and scope will be defined as development progresses.
+Bunken（文献）は、日本語文章の校正を支援するローカル完結型Webアプリケーションです。ルールベース検出とLLM提案のハイブリッドアプローチで、誤字・表記ゆれ・冗長・敬語誤用・スタイル逸脱を自動検出し、理由つきの修正案をワンクリックで適用できます。
 
 ## Core Features
-- *Features to be defined based on project requirements*
+- **ハイブリッド校正エンジン**: ルール（確実・安定）+ LLM（文脈・読みやすさ）のデュアルアプローチ
+- **リアルタイム解析**: 2000字を5秒以内で校正、入力停止500ms後の自動解析対応
+- **安全な自動修正**: 意味変化リスクゼロの「Fix All」機能で一括適用
+- **カスタマイズ可能なルール**: 外部YAMLファイルでのルールセット切替・ホットリロード
+- **プライバシー重視**: 完全ローカル動作、文章データはメモリ上のみで処理
+- **直感的UI**: Dialin AI風のモダンSaaSダッシュボードデザイン
+- **アクセシビリティ対応**: フルキーボード操作、色覚対応、スクリーンリーダー対応
 
 ## Target Use Case
-- *Use cases to be identified during initial development*
+- **コンテンツ制作**: ブロガー、ライター、編集者による記事・原稿の品質向上
+- **学術・研究**: 学生・研究者による論文・レポートの文章校正
+- **ビジネス文書**: 企業での提案書・報告書・メール等の文書品質管理
+- **個人利用**: 日記・SNS投稿・メッセージの文章改善
 
 ## Key Value Proposition
-- *Value propositions to be established as the product takes shape*
-
----
-
-*This steering document will be updated as the product requirements and features are defined.*
+- **高精度検出**: ゴールド文書でのF1スコア≥0.70の検出精度
+- **高い採用率**: 修正提案の採用率≥60%を目標とした実用的な提案
+- **安心・安全**: ローカル完結でプライバシー保護、意味変化リスクを排除した自動修正
+- **効率化**: 手動校正と比較して大幅な時間短縮とミス削減を実現
+- **カスタマイゼーション**: 組織・個人の表記ポリシーに合わせたルール調整が可能
